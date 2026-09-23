@@ -21,15 +21,32 @@ Solución de los talleres propuestos al final de los notebooks trabajados durant
 
 ## Cómo ejecutar
 
-1. Clonar el repositorio.
-2. Abrir el notebook en Jupyter (`jupyter notebook`) o VS Code.
-3. Ejecutar las celdas en orden.
+1. Clonar el repositorio:
 
-### Requisitos
+   ```bash
+   git clone https://github.com/CamiOso/SistemasInteligentesIPrimerCorte.git
+   cd SistemasInteligentesIPrimerCorte
+   ```
 
-- Python 3.10+
-- `matplotlib`
+2. Instalar las dependencias (Python 3.10+):
 
-```bash
-pip install matplotlib
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Abrir el notebook:
+
+   ```bash
+   jupyter notebook
+   ```
+
+   O abrir la carpeta en VS Code y correr el notebook desde ahí (requiere la extensión Jupyter).
+
+4. Ejecutar todas las celdas en orden (Kernel → Restart & Run All).
+
+### Dependencias
+
+- `matplotlib` — visualización de mapas y caminos.
+- `notebook` — para abrir y ejecutar los `.ipynb`.
+
+El resto del código usa solo la librería estándar de Python (`heapq`, `itertools`, `math`, `collections`, `time`).
