@@ -19,6 +19,7 @@ Solución de los talleres propuestos al final de los notebooks trabajados durant
 
 - `Resolucion_Problemas_Busqueda_NoInformada_CristianCamiloOsorioGranada.ipynb` — Búsqueda no informada: BFS y DFS aplicados a grafos, laberintos, el problema de los recipientes de agua y el 8-puzzle.
 - `Resolucion_Problemas_Busqueda_Informada_CristianCamiloOsorioGranada.ipynb` — Búsqueda informada: Costo Uniforme, A*, Beam Search y reto del 8-puzzle.
+- `Resolucion_Problemas_Busqueda_Adversarial_Minimax_CristianCamiloOsorioGranada.ipynb` — Búsqueda adversarial: algoritmo Minimax aplicado a árboles de juego, al juego de las piedras y a Tres en raya.
 
 ## Cómo ejecutar
 
